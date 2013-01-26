@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# 删除孤立软件包
+if [[ ! -n $(pacman -Qdt) ]]; then
+    echo no orphans to remove
+else
+    sudo pacman -Rs $(pacman -Qdtq)
+fi

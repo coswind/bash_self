@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# Install mutagen before.
+find . -name "*.mp3" -print0 | xargs -0 mid3iconv  -d -e gbk

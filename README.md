@@ -1,4 +1,3 @@
-bash_self
-=========
+##BASH_SELF
 
-Some useful bash shell.
+    Some useful bash shell.
